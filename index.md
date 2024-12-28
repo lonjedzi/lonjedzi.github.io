@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hey there! I’m Lonjezo Dzilankhulani, and I’m diving headfirst into the thrilling world of cybersecurity. It’s a complex field, but that’s what makes it so exciting! I’m all about learning and growing, so this blog is where I share my projects, progress, and the ups and downs of my journey. Whether you’re a fellow beginner or just curious, stick around—we’re in for a fun ride!
