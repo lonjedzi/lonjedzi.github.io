@@ -9,4 +9,9 @@ The first step in setting up a Simple Elastic SIEM lab is signing up for the Ela
 ![1](https://github.com/user-attachments/assets/402b5a8e-809d-40d1-9e59-74a0c38789bf)
 
 Once the account is created, we log in to the Elastic dashboard.
+
+### Task 2
+
+The second step is to install VirtualBox, which will allow us to manage our virtual machines. After that, we download and set up the Kali Linux virtual image, a powerful tool for penetration testing and cybersecurity tasks. With both VirtualBox and Kali Linux ready, let's set up  Elastic SIEM.
+
 ![3](https://github.com/user-attachments/assets/ae04c696-789e-4904-80c7-356df6feeddf)
