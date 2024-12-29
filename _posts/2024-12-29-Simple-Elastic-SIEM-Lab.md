@@ -15,3 +15,17 @@ Once the account is created, we log in to the Elastic dashboard.
 The second step is to install VirtualBox, which will allow us to manage our virtual machines. After that, we download and set up the Kali Linux virtual image, a powerful tool for penetration testing and cybersecurity tasks. With both VirtualBox and Kali Linux ready, let's set up  Elastic SIEM.
 
 ![3](https://github.com/user-attachments/assets/ae04c696-789e-4904-80c7-356df6feeddf)
+
+### Task 3
+
+The third step involves navigating to the "Add Integrations" section in the Elastic dashboard and selecting the "Elastic Defend" integration, which is used for host monitoring and protection.
+
+![7](https://github.com/user-attachments/assets/70006166-c8c0-434b-a25c-eaeff2a7fda0)
+
+### Task 4
+
+The fourth step is to install the Elastic Agent on our Kali host. Using the documentation provided on the Elastic web page, we copy the code for the Linux integration and paste it into the terminal on our Kali machine. 
+
+![8](https://github.com/user-attachments/assets/21c5c2b2-649a-41b8-8b91-0a5bfe77c5ef)
+
+![Uploading 9.PNG…]()
