@@ -28,4 +28,14 @@ The fourth step is to install the Elastic Agent on our Kali host. Using the docu
 
 ![8](https://github.com/user-attachments/assets/21c5c2b2-649a-41b8-8b91-0a5bfe77c5ef)
 
-![Uploading 9.PNG…]()
+![9](https://github.com/user-attachments/assets/e698953a-1489-48ab-85bd-8a58d3cadfde)
+
+Additionally, to confirm that the integration is running, we confirm by running the following command in the terminal: 
+
+ ```tsql
+sudo systemctl status elastic-agent.service
+ ```
+
+![10](https://github.com/user-attachments/assets/4b7d5841-1a5f-485d-9688-fa8def2bc4b8)
+
+### Task 5
