@@ -39,3 +39,13 @@ sudo systemctl status elastic-agent.service
 ![10](https://github.com/user-attachments/assets/4b7d5841-1a5f-485d-9688-fa8def2bc4b8)
 
 ### Task 5
+
+To confirm log data is being sent from your Kali virtual machine to the SIEM, run the command:
+
+``` tsql
+nmap -p- localhost
+```
+![11](https://github.com/user-attachments/assets/8a9b35c0-2b38-4d79-ad55-cc8e32307858)
+
+Now we go back to the Elastic Dashboard and 
+
