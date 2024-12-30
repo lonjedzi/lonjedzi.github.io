@@ -1,5 +1,7 @@
 ## Active Directory Lab
 
+![Microsoft Active Directory](https://github.com/user-attachments/assets/4f0b1532-79a4-4756-a74c-ddce8055fc6f)
+
 Active Directory (AD) is a critical tool for managing networks, users, and devices. As a Cyber Security Analyst, I understand this technology deeply, which is essential for identifying misconfigurations, managing access controls, and enhancing network security.
 
 In this series, I demonstrate how I set up and manage Active Directory on Windows Server 2022. This project showcases my ability to configure and optimize AD while highlighting its importance in secure network management.
@@ -25,3 +27,5 @@ Part 7: Sharing folders securely within the AD environment.
 2. Windows Server 2022 ISO
 
 ### Part 1: Installing Active Directory on Windows Server 2022.
+
+The first step is to download the Windows Server 2022 ISO from the official Microsoft website. Following the download, we then proceed with the installation on Virtual Box.
