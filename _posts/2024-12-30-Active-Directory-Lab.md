@@ -6,11 +6,22 @@ In this series, I demonstrate how I set up and manage Active Directory on Window
 
 ### What Will Be Covered
 Part 1: Install Active Directory on Windows Server 2022.
+
 Part 2: Setting up a NAT network, updating the server, enabling a static IP, enabling Remote Desktop, and renaming the server.
+
 Part 3: Transforming the server into a domain controller and joining it to a domain.
+
 Part 4: Configuring DNS forward lookup zones.
+
 Part 5: Joining a Windows 11 device to my domain.
+
 Part 6: Creating Organizational Units (OUs), users, and groups, and demonstrating logging into accounts.
+
 Part 7: Sharing folders securely within the AD environment.
 
-### Part 1: Install Active Directory on Windows Server 2022.
+### Prerequisites
+1. Oracle VirtualBox
+  
+2. Windows Server 2022 ISO
+
+### Part 1: Installing Active Directory on Windows Server 2022.
