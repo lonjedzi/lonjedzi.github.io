@@ -26,6 +26,16 @@ Part 7: Sharing folders securely within the AD environment.
   
 2. Windows Server 2022 ISO
 
-### Part 1: Installing Active Directory on Windows Server 2022.
+### Part 1: Installing Windows Server 2022.
 
-The first step is to download the Windows Server 2022 ISO from the official Microsoft website. Following the download, we then proceed with the installation on Virtual Box.
+### Task 1
+
+The first step is to install Windows Server on Virtual Box if we have not done so already. We do this by creating a new machine as seen below: 
+
+![1](https://github.com/user-attachments/assets/0a50d9c2-43b9-4f68-911b-569006c1f382)
+
+We then proceed to name the machine Windows Server 2022 select the ISO image corresponding to Windows Server 2022, and finish setting up the required Hardware and hard disk configurations for our server.
+
+![2](https://github.com/user-attachments/assets/f4eb3356-c698-493c-8786-f82ec0f6b782) 
+
+
