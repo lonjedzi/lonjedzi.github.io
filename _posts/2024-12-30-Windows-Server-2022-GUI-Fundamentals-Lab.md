@@ -1,4 +1,4 @@
-## Windows Server 2022 Fundamentals Lab
+## Windows Server 2022 (GUI) Fundamentals Lab
 
 ![Windows-Server-2022-Logo](https://github.com/user-attachments/assets/6836444e-f032-441e-b319-720a43f5a740)
 
