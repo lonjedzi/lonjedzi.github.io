@@ -59,4 +59,42 @@ In Server Manager, we can observe that the Time Zone is set to UTC-08:00 Pacific
 ![9](https://github.com/user-attachments/assets/360c30f2-b58b-4d16-a8c0-22cb251e27f8)
 
 ### Task 4: Enabling a static IP
+Next, we want to manually assign an IP Address to our ethernet adapter. We select the Ethernet Adapter option as seen below, which will open up our Network Connections setting: 
 
+![a](https://github.com/user-attachments/assets/7d45f0c0-1876-4d58-bfec-eb20e6ab6c31)
+
+![b](https://github.com/user-attachments/assets/b9f730f1-7cf5-4caf-a6f4-8e8fe9bbebdc)
+
+Next, we click on the available Ethernet connection, which will take us to the status menu where we will click "Properties." We then look for IPv4 (Internet Protocol Version 4). This brings us to the IPv4 properties menu where we can make our configurations. We will set our IP Address to 192.168.199.4, Subnet Mask to 255.255.255.0, and Default Gateway to 192.168.199.1 (our router's address). We also want our router to handle DNS, so we set the DNS Server to our router's IP. For the Alternate DNS, we will use Cloudflare's DNS at 1.1.1.1
+
+![c](https://github.com/user-attachments/assets/592af476-164a-4a61-b539-768f8123dfb9)
+
+
+We test our configuration with the ping command
+``` tsql
+ping 1.1.1.1
+```
+This confirms that communication is successfully taking place. 
+
+![d](https://github.com/user-attachments/assets/2281af6d-2ab8-4647-86bc-bda00827a56f)
+
+### Task 5: Enabling Remote Desktop
+
+Enabling Remote Desktop allows us to access and manage our Windows Server from a remote location. This can be particularly useful for administrative tasks and troubleshooting.
+This is a fairly simple process. We navigate back to Server Manager and click on the "Disabled" part next to Remote Desktop. This will open the properties, where we will select the option to allow remote connections to this computer and click "Apply."
+
+![e](https://github.com/user-attachments/assets/8de5c352-5695-4dfd-9035-737b23fcdccd)
+
+### Task 6: Renaming the server 
+
+Lastly, we want to rename our server to WIN22-DC, which will be easier to remember for configurations. This is a fairly simple process. We go to Server Manager and click on the computer name, which will bring us to the computer name properties. We click on "Change name," enter our new name, and then click "OK." We will be required to restart our computer for the changes to take effect, at which point we will have successfully changed the name.
+
+![g](https://github.com/user-attachments/assets/1521a435-e6f2-42b1-a411-2765cce26de0)
+
+### Conclusion
+
+This Windows Server 2022 Fundamentals Lab has guided me through setting up and managing a basic Windows Server environment. I installed Windows Server, set up a NAT network, updated the server, configured a static IP, enabled Remote Desktop, and renamed the server.
+
+Throughout this project, I gained hands-on experience with essential server management tasks. These foundational skills are crucial for my growth in server management, network administration, and cybersecurity.
+
+Next up, I will be installing Active Directory to further enhance my expertise in secure network management, which can be found here [insert link here]. Alternatively, a lab performing these tasks in Windows Server Core, without the user interface, can be found here [insert link here].
