@@ -52,16 +52,15 @@ We then boot up our machine and open up Server Manager. We want to update the se
 
 ![7](https://github.com/user-attachments/assets/8c2a23b7-4f38-4cb5-85b0-65684b293575)
 
-This will then open up Windows Update Settings, where we can install available updates to our machine. 
+This will then open up Windows Update Settings, where we can install available updates to our machine if there are any when we select "Check for updates" 
 
-![8](https://github.com/user-attachments/assets/2431af60-4125-4199-9410-0b88f0541ce2)
-
-Our Server has been updated successfully. 
+![8](https://github.com/user-attachments/assets/93cc60f1-fd6f-410c-ae10-fbf5553e30d0)
+ 
 
 ### Task 3: Updating Server Time Zone 
 In the Server Manager, we can see that the Time Zone is set to UTC-08:00 Pacific Time US & Canada. To update this to my Time Zone which is UTC+02:00, we select the time zone, which opens up the Date and Time settings where we can either click Change Date and Time or Change Time Zones. For this server, we will change the Time Zone to UTC+02:00 Harare, Pretoria being that it is the same as here in Malawi. With this, we will have updated our server successfully. 
 
 ![9](https://github.com/user-attachments/assets/360c30f2-b58b-4d16-a8c0-22cb251e27f8)
 
-
+### Task 4:  
 
