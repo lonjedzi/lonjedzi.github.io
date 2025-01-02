@@ -38,4 +38,12 @@ We then proceed to name the machine Windows Server 2022 select the ISO image cor
 
 ![2](https://github.com/user-attachments/assets/f4eb3356-c698-493c-8786-f82ec0f6b782) 
 
+### Part 2 
+
+### Task 1
+
+The first thing we do for task 1 is to create a NAT Network to which we will join our server. This is done by going to the NAT Networks tab under the tools section in Virtual Box and then selecting Create New. For our server, we will have the IPv4 of 192.168.199.0/24 and name the network windowsserver2022 as seen in the image below: 
+
+![f](https://github.com/user-attachments/assets/685146b7-0a86-4b7b-90f8-e5a84b301946)
+
 
