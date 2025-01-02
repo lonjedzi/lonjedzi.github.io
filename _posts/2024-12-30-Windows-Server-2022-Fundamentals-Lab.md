@@ -1,30 +1,30 @@
-## Active Directory Lab
+## Windows Server 2022 Fundamentals Lab
 
-![Microsoft Active Directory](https://github.com/user-attachments/assets/4f0b1532-79a4-4756-a74c-ddce8055fc6f)
+![Windows-Server-2022-Logo](https://github.com/user-attachments/assets/6836444e-f032-441e-b319-720a43f5a740)
 
-Active Directory (AD) is a critical tool for managing networks, users, and devices. As a Cyber Security Analyst, I understand this technology deeply, which is essential for identifying misconfigurations, managing access controls, and enhancing network security.
+Windows Server is a critical tool for managing networks, users, and devices. As a Cyber Security Analyst, understanding this technology deeply is essential for identifying misconfigurations, managing access controls, and enhancing network security.
 
-In this series, I demonstrate how I set up and manage Active Directory on Windows Server 2022. This project showcases my ability to configure and optimize AD while highlighting its importance in secure network management.
+In this series, I demonstrate how I set up and manage Windows Server 2022. This project showcases my ability to configure and optimize a Windows Server environment while highlighting its importance in secure network management.
 
 ### What Will Be Covered
-Part 1: Install Active Directory on Windows Server 2022.
+Task 1: Install Windows Server 2022.
 
-Part 2: Setting up a NAT network, updating the server, enabling a static IP, enabling Remote Desktop, and renaming the server.
+Task 2: Setting up a NAT network on Virtual Box
 
-Part 3: Transforming the server into a domain controller and joining it to a domain.
+updating the server, enabling a static IP, enabling Remote Desktop, and renaming the server.
 
-Part 4: Configuring DNS forward lookup zones.
+Task 3: updating the server
 
-Part 5: Joining a Windows 11 device to my domain.
+Task 4: Enabling a static IP
 
-Part 6: Creating Organizational Units (OUs), users, and groups, and demonstrating logging into accounts.
+Task 5: Enabling Remote Desktop
 
-Part 7: Sharing folders securely within the AD environment.
+Task 6: Renaming the server
 
 ### Prerequisites
 1. Oracle VirtualBox
   
-2. Windows Server 2022 ISO
+2. Windows Server 2022 ISO (https://info.microsoft.com/ww-landing-windows-server-2022.html) 
 
 ### Part 1: Installing Windows Server 2022.
 
