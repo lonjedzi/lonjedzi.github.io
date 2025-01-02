@@ -46,4 +46,17 @@ The first thing we do for task 1 is to create a NAT Network to which we will joi
 
 ![f](https://github.com/user-attachments/assets/685146b7-0a86-4b7b-90f8-e5a84b301946)
 
+### Task 2: Updating the Server
+
+We then boot up our machine and open up Server Manager. We want to update the server so we do this by navigating to the "local server" on the left dashboard and then selecting Download Updates only using Windows Updates as seen in the image below: 
+
+![7](https://github.com/user-attachments/assets/8c2a23b7-4f38-4cb5-85b0-65684b293575)
+
+This will then open up Windows Update Settings, where we can install available updates to our machine. 
+
+![8](https://github.com/user-attachments/assets/2431af60-4125-4199-9410-0b88f0541ce2)
+
+Our Server has been updated successfully. 
+
+### Task 3: Updating Server Time Zone
 
