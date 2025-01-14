@@ -1,6 +1,7 @@
 ## Windows Server 2022 (GUI) Fundamentals Lab
 
-![Windows-Server-2022-Logo](https://github.com/user-attachments/assets/6836444e-f032-441e-b319-720a43f5a740)
+![Windows-Server-2022-Logo](https://github.com/user-attachments/assets/e912b5ee-9216-472a-8c6c-3ac7e9bafebc)
+
 
 Windows Server is a critical tool for managing networks, users, and devices. As a Cyber Security Analyst, understanding this technology deeply is essential for identifying misconfigurations, managing access controls, and enhancing network security.
 
@@ -28,11 +29,12 @@ Task 6: Renaming the server
 
 The first step is to install Windows Server on VirtualBox. We start by creating a new virtual machine in VirtualBox, as illustrated below:
 
-![1](https://github.com/user-attachments/assets/0a50d9c2-43b9-4f68-911b-569006c1f382)
+![1](https://github.com/user-attachments/assets/84c4d201-4b46-44fd-9a0a-a3063ac5ea1f)
 
 In the VirtualBox machine setup menu, we name the machine "Windows Server 2022." We then select the ISO image corresponding to Windows Server 2022 and complete the setup by configuring the required hardware and hard disk settings for our server
 
-![2](https://github.com/user-attachments/assets/f4eb3356-c698-493c-8786-f82ec0f6b782) 
+![2](https://github.com/user-attachments/assets/b4de9db6-cf12-4c48-9134-760baa26c7cd)
+
 
 We then boot up our machine and allow it to install the operating system. 
 
