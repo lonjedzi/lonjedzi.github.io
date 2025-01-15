@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+A blog where I document my cybersecurity projects, focusing on practical applications of skills in areas like network defense, threat hunting, and incident response. It’s a space to showcase my growth and hands-on experience in the field.
