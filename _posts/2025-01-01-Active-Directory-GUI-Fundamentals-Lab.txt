@@ -1,7 +1,0 @@
-## Active Directory Lab
-
-In our last blog, we set up Windows Server 2022 on a virtual machine as part of our cybersecurity project. Now, we’re moving forward with Active Directory (AD), a critical tool for managing and securing network resources. This post will cover the basics of AD and its configuration to strengthen our server’s security posture. 
-
-
-
-
