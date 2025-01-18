@@ -1,0 +1,1 @@
+In our previous blog, we successfully installed Active Directory and DNS on our server, transforming it into a functional domain controller. Now, it’s time to take the next step: properly configuring the DNS. As the backbone of network communication, DNS ensures seamless name resolution within our domain, a critical component for maintaining a secure and efficient network
