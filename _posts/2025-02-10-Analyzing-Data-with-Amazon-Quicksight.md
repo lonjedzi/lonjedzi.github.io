@@ -36,13 +36,19 @@ The next step we have to do is Copy the S3 URL of the netflix_titles.csv file. T
 
 We then open manifest.json in visual studio code on the local machine and paste the link in URLs after which we then reupload the manifest.json file into our S3 Bucket: 
 
-![Uploading f.png…]() 
+![f](https://github.com/user-attachments/assets/177e6b51-ba3d-4ebb-b3f9-7fad21aaf255)
 
-## Step 4: Signing up for Quicksight 
+## Step 4: Signing up for Quicksight  
+The next step is to create an Amazon QuickSight account. We search for QuickSight in the AWS search bar and click on the result. This takes us to the signup page, where we enter the required details, including email, region, and authentication settings.
 
+![g](https://github.com/user-attachments/assets/cdc96196-2793-49eb-a1dc-c83400e1a9bc)
 
+This step allows us to configure which Amazon services QuickSight can access. For this project, we grant QuickSight access to our S3 bucket, enabling it to retrieve the dataset for analysis.
 
+![h](https://github.com/user-attachments/assets/15f7606e-6cf9-47ad-bbc4-dc9cf325d964)
 
+It is important to uncheck "Add pixel perfect reports" to avoid any unnecessary charges!
+![j](https://github.com/user-attachments/assets/aeff192a-7225-4a2f-bd19-26323c1b1a1f)
 
 
 
