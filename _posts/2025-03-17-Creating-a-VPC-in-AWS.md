@@ -22,3 +22,23 @@ A Virtual Private Cloud (VPC) is an isolated network environment within AWS that
 In the VPC Console, we can see that under the VPCs section, a default VPC is already available. This default VPC is automatically provided when an AWS account is created, and it serves as the default network for our resources, such as S3 buckets, EC2 instances, and more.
 
 Without VPCs, all resources would be publicly accessible, which is not ideal for security and isolation. A VPC allows us to control network access, ensuring that our infrastructure remains private and secure.
+
+## Step 2 
+Next, in the VPC Console, click on VPCs, then select Create VPC to begin setting up a new Virtual Private Cloud. 
+
+![3](https://github.com/user-attachments/assets/012397db-7ab7-4e82-b2eb-a4b09f489e75)
+
+We will now be taken to the VPC setup menu, where we need to configure our VPC. Since we are only creating a VPC, ensure that "VPC only" is selected.
+
+## Configuration:
+  Name tag: my-vpc-1
+  IPv4 CIDR: Select "IPv4 CIDR manual input"
+  IPv4 CIDR block: 10.0.0.0/16
+  IPv6 CIDR block: Select "No IPv6 CIDR block"
+  Leave all other settings as default.
+
+Once these configurations are set, we can proceed to create the VPC!
+
+![4](https://github.com/user-attachments/assets/d5580e75-adc0-4146-aa6b-c094551b5be3)
+
+## Creating a Subnet
