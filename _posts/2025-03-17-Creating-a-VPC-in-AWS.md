@@ -1,5 +1,7 @@
 ### Creating a VPC in AWS
 
+![P1](https://github.com/user-attachments/assets/94674596-3d21-40e8-85ae-cd4d357b14f3)
+
 ## Introduction
 My latest project is a simple introduction to networking in AWS! In this project, I will create a Virtual Private Cloud (VPC) environment in AWS. Setting up a VPC is an essential skill for anyone looking to get familiar with AWS. This project consists of three main steps:
 
