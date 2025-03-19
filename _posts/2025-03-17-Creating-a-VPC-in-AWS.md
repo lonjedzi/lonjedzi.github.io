@@ -33,11 +33,11 @@ Next, in the VPC Console, click on VPCs, then select Create VPC to begin setting
 We will now be taken to the VPC setup menu, where we need to configure our VPC. Since we only create a VPC, ensure that "VPC only" is selected.
 
 ## Configuration:
-  Name tag: my-vpc-1
-  IPv4 CIDR: Select "IPv4 CIDR manual input"
-  IPv4 CIDR block: 10.0.0.0/16
-  IPv6 CIDR block: Select "No IPv6 CIDR block"
-  Leave all other settings as default.
+  1. Name tag: my-vpc-1
+  2. IPv4 CIDR: Select "IPv4 CIDR manual input"
+  3. IPv4 CIDR block: 10.0.0.0/16
+  4. IPv6 CIDR block: Select "No IPv6 CIDR block"
+  5. Leave all other settings as default.
 
 Once these configurations are set, we can proceed to create the VPC!
 
@@ -52,8 +52,8 @@ A subnet is a smaller network within our VPC that allows us to organize and mana
 
 In AWS, subnets can be classified into two types:
 
-  Public Subnets – These allow resources, such as EC2 instances, to communicate with the Internet via an Internet Gateway.
-  Private Subnets – These are isolated from the internet and are used for internal resources like databases.
+  1. Public Subnets – These allow resources, such as EC2 instances, to communicate with the Internet via an Internet Gateway.
+  2. Private Subnets – These are isolated from the internet and are used for internal resources like databases.
   
 ## Creating our Subnet
 To create our subnet, navigate to the Subnets dashboard by clicking on Subnets in the left navigation panel. 
@@ -73,10 +73,10 @@ Since we want to create the subnet within the VPC we just set up, click on the V
 
 Next, we configure our subnet settings, and click on create subnet:
 
-  Subnet Name: public-1
-  Availability Zone: af-south-1a
-  IPv4 VPC CIDR Block: Leave as default (This ensures the subnet remains within the address range, 65,536, of the VPC we created). 
-  IPv4 Subnet CIDR Block: Set to 10.0.0.0/24, which provides 256 IP addresses for resources within this subnet.
+  1. Subnet Name: public-1
+  2. Availability Zone: af-south-1a
+  3. IPv4 VPC CIDR Block: Leave as default (This ensures the subnet remains within the address range, 65,536, of the VPC we created). 
+  4. IPv4 Subnet CIDR Block: Set to 10.0.0.0/24, which provides 256 IP addresses for resources within this subnet.
 
 ![7](https://github.com/user-attachments/assets/ae6ed3d2-10d7-431b-ba11-e852b34ef467)
 
@@ -90,10 +90,42 @@ We select the subnet, click Actions, then choose Edit Subnet Settings to open th
 
 ![9](https://github.com/user-attachments/assets/0889924e-5d8a-4bd6-9129-251b4c61043a)
 
+![2](https://github.com/user-attachments/assets/6e9bd830-ae08-4135-af00-077145bfd375)
+
 ## Creating an Internet Gateway
 Now that our subnet is created, we need to connect it to the internet to make it a public subnet.
 
 Simply put, an Internet Gateway (IGW) allows our VPC to communicate with the Internet, enabling resources within the public subnet to send and receive external traffic. 
 
 ![10](https://github.com/user-attachments/assets/429f7f59-28a0-4090-b4aa-77a981f03c13)
+
+To create an Internet Gateway, we navigate to the left navigation bar and click on Internet Gateways. This will take us to the Internet Gateway dashboard.
+
+We can see that a default Internet Gateway is already set up—this is automatically provided with your AWS account. However, we need to create a new one for our custom VPC.
+
+![11](https://github.com/user-attachments/assets/c0b38e99-4b24-4dc8-b9f0-f12756f24992)
+
+We click on the Create Internet Gateway button in the top right corner. This will open the configuration panel, where we simply enter a name for our gateway (my-ig-1).
+
+![12](https://github.com/user-attachments/assets/83727673-4691-4cbf-8286-c4c3f373296b)
+
+Once named, click Create Internet Gateway to finalize the setup.
+
+![13](https://github.com/user-attachments/assets/fbea1b0e-c89e-44b2-ba5c-09669fdcf2b8)
+
+Next, we need to attach the Internet Gateway to our VPC.
+
+To do this, select Actions and then click on Attach to VPC. This will take us to a dashboard where we can select our VPC (my-vpc-1) to attach the Internet Gateway.
+
+![14](https://github.com/user-attachments/assets/f479f39d-9c27-46bf-847c-6adbf425cb93)
+
+Once this is done, we will have successfully attached the Internet Gateway to our VPC, completing the setup! 
+
+![15](https://github.com/user-attachments/assets/9681a40f-7f88-4459-98a8-f1484c40dbdf)
+
+![P1](https://github.com/user-attachments/assets/89ae81e4-c4ad-461e-b8f4-cc0ba03533ec)
+
+## Conclusion 
+
+In conclusion, we have successfully created a Virtual Private Cloud (VPC), configured a subnet within it, and connected it to the internet by attaching an Internet Gateway. These steps lay the foundation for launching and managing resources within a secure and isolated network in AWS. With our public subnet now in place, we can begin deploying EC2 instances and other services that require internet access, ensuring a robust and flexible cloud environment.
 
