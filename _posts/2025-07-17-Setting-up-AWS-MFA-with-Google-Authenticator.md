@@ -1,4 +1,4 @@
-<img width="1366" height="657" alt="14" src="https://github.com/user-attachments/assets/ed7c51de-4bb2-4759-9268-ea5e738f4ae4" />## 
+<img width="1366" height="657" alt="14" src="https://github.com/user-attachments/assets/ed7c51de-4bb2-4759-9268-ea5e738f4ae4" />
 
 ## Introduction
 On Day 2 of my AWS Cloud Practitioner journey, I set up Multi-Factor Authentication (MFA) to secure my IAM user account. MFA adds an extra layer of security by requiring a one-time code from an app, along with your password.
