@@ -2,7 +2,7 @@
 
 In managing cloud environments, controlling user permissions securely and efficiently is crucial. In this project, I explored how to create an IAM role in AWS and enable a test user to switch into that role to gain temporary permissions. This approach allows users to perform tasks only when necessary, adhering to the principle of least privilege and enhancing overall security. In this post, I’ll walk you through the step-by-step process I followed to set up IAM roles and policies, create a test user with minimal permissions, and successfully switch roles to access specific AWS services like EC2. Whether you’re new to AWS IAM or looking to reinforce best practices in permission management, this guide will help you understand the power and flexibility of role-based access.
 
-Step 1: Create the IAM Role for EC2 Full Access
+## Step 1: Create the IAM Role for EC2 Full Access
 We begin by heading to the IAM dashboard, selecting Roles, and clicking on Create role. Since we want to simulate cross-account access, we choose another AWS account that we have created, called mike-ec2-demo, as the trusted entity type. 
 
 <img width="1366" height="606" alt="5  Review Account" src="https://github.com/user-attachments/assets/4d281498-c2ec-47f9-9420-927b1815c94c" />
