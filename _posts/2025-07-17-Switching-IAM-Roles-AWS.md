@@ -1,4 +1,4 @@
-## Introduction
+## Switching IAM Roles
 
 In managing cloud environments, controlling user permissions securely and efficiently is crucial. In this project, I explored how to create an IAM role in AWS and enable a test user to switch into that role to gain temporary permissions. This approach allows users to perform tasks only when necessary, adhering to the principle of least privilege and enhancing overall security. In this post, I’ll walk you through the step-by-step process I followed to set up IAM roles and policies, create a test user with minimal permissions, and successfully switch roles to access specific AWS services like EC2. Whether you’re new to AWS IAM or looking to reinforce best practices in permission management, this guide will help you understand the power and flexibility of role-based access.
 
